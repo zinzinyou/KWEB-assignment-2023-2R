@@ -7,7 +7,7 @@ function factorial(n) {
     return result;
 }
 
-const permutation = (n,r) => {
+const permutation = (n,r) => { //const permutation = (n,r) => fac(n) / fac(n-r)
     const a=factorial(n);
     const b=factorial(n-r);
     return a/b;
